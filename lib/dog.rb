@@ -6,4 +6,3 @@ fido.name
 
 fido.bark
 woof!
-# => nil
