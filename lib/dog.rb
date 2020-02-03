@@ -1,8 +1,17 @@
-fido = Dog.new
-fido.name = "Fido"
+class Dog
+  def name=(dogs_name)
+    @name = dogs_name
+  end 
 
-fido.name
-# => "Fido"
+  def name
+    @name
+  end 
+  
+end 
 
-fido.bark
-woof!
+class Dog
+  def bark
+    puts "woof!"
+  end 
+  
+end 
